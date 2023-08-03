@@ -242,9 +242,11 @@
     <Content Include="Parent.Master" />
     <Content Include="Scripts\jquery-3.0.0.slim.min.map" />
     <Content Include="Scripts\jquery-3.0.0.min.map" />
+    <Content Include="tessdata\ara.traineddata" />
+    <Content Include="tessdata\configs" />
     <Content Include="tessdata\eng.traineddata" />
     <Content Include="tessdata\pdf.ttf" />
-    <Content Include="tessdata\ara.traineddata" />
+    <Content Include="tessdata\script\Arabic.traineddata" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -255,6 +257,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+    <Folder Include="tessdata\tessconfigs\" />
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="Scripts\index.d.ts" />
