@@ -361,3 +361,6 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/ImageRecognitionOCR/ImageRecognitionOCR.csproj
+/PythonWrapper/PythonWrapper.csproj
+/TaskActionConoleApp/TaskActionConoleApp.csproj
